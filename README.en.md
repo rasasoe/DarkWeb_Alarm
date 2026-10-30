@@ -7,10 +7,10 @@
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)
-![OSINT](https://img.shields.io/badge/Focus-OSINT%20%2F%20CTI-64748B)
-![Tor](https://img.shields.io/badge/Tor-Optional%20Proxy-7D4698)
-![Alerts](https://img.shields.io/badge/Alerts-Telegram-229ED9?logo=telegram&logoColor=white)
+<img alt="Python" src="https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white"/>
+<img alt="OSINT" src="https://img.shields.io/badge/Focus-OSINT%20%2F%20CTI-64748B"/>
+<img alt="Tor" src="https://img.shields.io/badge/Tor-Optional%20Proxy-7D4698"/>
+<img alt="Alerts" src="https://img.shields.io/badge/Alerts-Telegram-229ED9?logo=telegram&logoColor=white"/>
 
 **A lightweight OSINT collection and threat-indicator alert prototype.**
 </div>
