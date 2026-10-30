@@ -1,5 +1,8 @@
 # 🕵️ DOTAS v1.3
 
+<p align="center"><b>🌐 Language</b> &nbsp; <strong>🇰🇷 한국어</strong> &nbsp; | &nbsp; <a href="README.en.md">🇺🇸 English</a></p>
+
+
 ## Dark-web OSINT Threat Alert System (Tor + OSINT 기반 위협 인텔 자동화)
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=flat\&logo=python\&logoColor=white)
