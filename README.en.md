@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/portfolio-banner.svg" width="100%" alt="DarkWeb_Alarm — engineering overview"></p>
+
 # DOTAS v1.3 — Dark-Web OSINT Threat Alert System
 
 <div align="center">
