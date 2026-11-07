@@ -60,7 +60,7 @@
 
 ---
 
-# ⚙ 시스템 아키텍처 (Architecture Diagram)
+## 시스템 아키텍처
 
 ```text
             +------------------+
@@ -99,16 +99,16 @@
 
 ---
 
-# 🌐 사용 중인 데이터 소스
+## 데이터 소스
 
-## 🧅 Tor 기반 (use_tor = True)
+### Tor 경로
 
 | Source Name                  | URL                                                                      |
 | ---------------------------- | ------------------------------------------------------------------------ |
 | **Ahmia Onion Search**       | `http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion/` |
 | **DarkFail Onion Directory** | `http://darkfailenbsdla5mal2mxn2uz66od5vtzd5qozslagrfzachha3f3id.onion/` |
 
-## 🌐 Clearnet OSINT
+### Clearnet OSINT
 
 | Source Name                          | URL                                                                                     |
 | ------------------------------------ | --------------------------------------------------------------------------------------- |
