@@ -117,7 +117,7 @@
 
 ---
 
-# 📁 디렉토리 구조 (Project Structure)
+## 디렉토리 구조
 
 ```text
 DOTAS/
@@ -130,7 +130,7 @@ DOTAS/
 
 ---
 
-# 🧩 Requirements (환경 요구사항)
+## 환경 요구사항
 
 ```
 Python 3.9+
@@ -157,7 +157,7 @@ pip install -r requirements.txt
 
 ---
 
-# 🔧 설치 및 실행 방법
+## 설치와 실행
 
 ### 1) Tor 설치 및 실행
 
@@ -182,7 +182,7 @@ python3 dotas_v1_3.py
 
 ---
 
-# 📌 실행 로그 예시 (Example Output)
+## 실행 로그 예시
 
 ```text
 >> [DOTAS] 다크웹 & OSINT 위협 모니터링 시스템 가동
@@ -203,7 +203,7 @@ Snippet: ...
 
 ---
 
-# 🩺 Troubleshooting (트러블슈팅)
+## 문제 해결
 
 ### 1️⃣ `.onion` 접속 실패 (`General SOCKS server failure`)
 
@@ -231,14 +231,14 @@ torsocks curl https://check.torproject.org
 
 ---
 
-# 📄 License (MIT)
+## 라이선스
 
 본 프로젝트는 MIT 라이센스를 따릅니다.
 누구나 자유롭게 수정 및 재사용할 수 있습니다.
 
 ---
 
-# ⚠️ Legal Disclaimer
+## 사용 범위와 주의사항
 
 > DOTAS는 **보안 연구·교육·위협 인텔리전스 학습용**으로 제작되었습니다.
 > 무단 크롤링·불법 침투·허가되지 않은 onion/웹 자원 접근은
