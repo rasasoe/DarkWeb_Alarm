@@ -1,17 +1,29 @@
-<p align="center"><img src="assets/portfolio-banner.svg" width="100%" alt="DarkWeb_Alarm — engineering overview"></p>
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/portfolio-banner-mobile.svg">
+  <img src="assets/portfolio-banner.svg" width="100%" alt="DOTAS — OSINT threat indicator monitoring">
+</picture>
 
-# DOTAS v1.3 — Dark-Web OSINT Threat Alert System
+<p align="right"><a href="README.md">한국어</a> / <strong>English</strong></p>
 
-<div align="center">
-  <p><a href="README.md">🇰🇷 한국어</a> · <strong>🇺🇸 English</strong></p>
-</div>
+# DOTAS — OSINT Collection and Indicator Alerts
 
+**Public-source intelligence · Optional Tor proxy · Indicator extraction · Deduplication · Alerts**
 
-<div align="center">
+## Project purpose
 
+Threat sources have inconsistent formats and repeated items. DOTAS experiments with **collecting public index/OSINT documents, extracting email/domain IOC candidates, suppressing duplicates, and routing observations to CSV/Telegram outputs**.
 
-**A lightweight OSINT collection and threat-indicator alert prototype.**
-</div>
+## Workflow
+
+1. Read a configured public source (optionally through a SOCKS5h Tor proxy)
+2. Extract and normalize candidate indicators; suppress repeated records
+3. Preserve observations and issue alerts
+
+**Evidence boundary:** This documents the code and design, not successful live access to every Onion source or a verified production monitoring service. IOC matches are leads for investigation, not confirmed compromises.
+
+[Follow-on CTI prototype: DotasPlus](https://github.com/rasasoe/DotasPlus)
+
+---
 
 ## What it does
 
