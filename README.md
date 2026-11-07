@@ -1,15 +1,12 @@
-# 🕵️ DOTAS v1.3
+<p align="center"><img src="assets/portfolio-banner.svg" width="100%" alt="DarkWeb_Alarm — engineering overview"></p>
+
+# DOTAS v1.3
 
 <p align="center"><b>🌐 Language</b> &nbsp; <strong>🇰🇷 한국어</strong> &nbsp; | &nbsp; <a href="README.en.md">🇺🇸 English</a></p>
 
 
 ## Dark-web OSINT Threat Alert System (Tor + OSINT 기반 위협 인텔 자동화)
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=flat\&logo=python\&logoColor=white)
-![Network](https://img.shields.io/badge/Network-Tor%20Onion-7D4698?style=flat\&logo=tor-browser\&logoColor=white)
-![Focus](https://img.shields.io/badge/Focus-Threat%20Intelligence-red?style=flat)
-![Platform](https://img.shields.io/badge/Platform-Kali%20Linux-blue?style=flat\&logo=linux)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat)
 
 > **DOTAS는 Tor 기반 `.onion` 인덱스(검색/디렉토리) + clearnet OSINT 소스에서
 > IOC(Indicator of Compromise)를 자동 수집하고
