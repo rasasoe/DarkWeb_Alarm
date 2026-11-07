@@ -1,25 +1,36 @@
-<p align="center"><img src="assets/portfolio-banner.svg" width="100%" alt="DarkWeb_Alarm — engineering overview"></p>
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/portfolio-banner-mobile.svg">
+  <img src="assets/portfolio-banner.svg" width="100%" alt="DOTAS — OSINT 위협 인텔리전스 수집">
+</picture>
 
-# DOTAS v1.3
+<p align="right"><strong>한국어</strong> / <a href="README.en.md">English</a></p>
 
-<p align="center"><b>🌐 Language</b> &nbsp; <strong>🇰🇷 한국어</strong> &nbsp; | &nbsp; <a href="README.en.md">🇺🇸 English</a></p>
+# DOTAS — 공개 위협 정보 수집·알림
 
+**OSINT · Tor(선택) · IOC 추출 · 중복 제거 · Telegram 알림**
 
-## Dark-web OSINT Threat Alert System (Tor + OSINT 기반 위협 인텔 자동화)
+## 왜 만들었나
 
+다양한 공개 위협 정보에서 보안 관련 지표를 찾아도 **소스별 형식이 다르고 같은 알림이 반복**되면 실제로 확인하기 어렵습니다. DOTAS는 공개 인덱스·OSINT 문서를 수집해 이메일·도메인 등의 IOC를 추출하고, 중복을 제거해 알림 흐름으로 연결하는 실험 프로젝트입니다.
 
-> **DOTAS는 Tor 기반 `.onion` 인덱스(검색/디렉토리) + clearnet OSINT 소스에서
-> IOC(Indicator of Compromise)를 자동 수집하고
-> CSV 저장 + Telegram 실시간 경고를 제공하는 경량 Threat Intel 엔진입니다.**
+## 처리 흐름
+
+1. **수집:** 승인된 공개 소스와 선택적인 Tor 프록시 경로
+2. **정리:** HTML 텍스트 변환, 정규식 기반 IOC 후보 식별 및 중복 방지
+3. **전달:** CSV 기록과 Telegram 경고 경로
+
+**검증 범위:** 저장소의 설계·수집 코드 및 안내를 설명하며, 현재 외부 Onion 소스 전체의 연결 성공이나 실시간 운영을 확인했다는 의미는 아닙니다. IOC는 침해 사실의 확정 증거가 아닌 조사 후보입니다.
+
+**후속 확장:** [DotasPlus](https://github.com/rasasoe/DotasPlus)는 출처·원문·IOC를 보호 자산 및 Incident까지 연결하는 방향으로 별도 개발했습니다.
 
 ---
 
-# 📌 주요 기능 (Features)
+## 상세 기능
 
 ### ✔ 1. Tor 기반 Onion Intelligence 수집
 
 * `.onion` 주소에 직접 접근하여 데이터 수집
-* Tor SOCKS5h 프록시 사용 → **DNS까지 Tor 내부에서 처리 (완전한 익명성)**
+* Tor SOCKS5h 프록시 사용 → **SOCKS5h 사용 시 DNS 질의도 Tor 경로로 전달하도록 구성**
 * 사용 소스:
 
   * **Ahmia onion 인덱스**
